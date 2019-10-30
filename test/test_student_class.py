@@ -28,7 +28,7 @@ class MyTestCase(unittest.TestCase):
 
     def test_object_not_created_error_last_name(self):
         with self.assertRaises(ValueError):
-            s = sc.Student(123, "Colten", "Computer Information Systems", 3.5)
+            s = sc.Student("123", "Colten", "Computer Information Systems", 3.5)
 
 
 if __name__ == '__main__':
