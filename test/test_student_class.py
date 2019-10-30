@@ -38,6 +38,10 @@ class MyTestCase(unittest.TestCase):
         with self.assertRaises(ValueError):
             s = sc.Student("Pfander", "Colten", "123", 3.5)
 
+    def test_object_not_created_error_gpa(self):
+        with self.assertRaises(ValueError):
+            s = sc.Student("Pfander", "Colten", "Computer Information Systems", "hello")
+
 
 if __name__ == '__main__':
     unittest.main()
