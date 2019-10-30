@@ -11,9 +11,9 @@ validation.
 
 class Student:
     """Student class"""
-    def __init__(self, lname, fname, major, gpa=0.0):
-        self.last_name = lname
-        self.first_name = fname
+    def __init__(self, l_name, f_name, major, gpa=0.0):
+        self.last_name = l_name
+        self.first_name = f_name
         self.major = major
         self.gpa = gpa
 
